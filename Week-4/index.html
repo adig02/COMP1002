@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This week we will be using floats to create our layout">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Layouts with CSS | Floats</title>
+        <!--add our CSS-->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <!-- use div for logo container since there is no semantic element for a logo-->
+            <div>
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="header logo">
+                </a>
+            </div>
+            <nav>
+                <menu>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Working with CSS Floats</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis culpa delectus deleniti, dolor dolore doloremque earum fugit id in incidunt laborum laudantium, mollitia, nemo nobis non nostrum pariatur quam quos reiciendis saepe sint tempore veniam vitae voluptatibus! Ab aliquam architecto, et ex inventore iusto laborum maxime nihil nostrum repellat, soluta totam ullam ut voluptate.</p>
+            </section>
+            <!--next section contains 2 columns both text-->
+            <section>
+
+                <div>
+                    <h3>Column One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, atque beatae dolor dolore, dolorum, ea enim explicabo incidunt nulla quam quibusdam quis saepe sunt tenetur!</p>
+                </div>
+
+                <div>
+                    <h3>Column Two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi aperiam consectetur cupiditate, et excepturi explicabo facilis impedit, in magni porro, sunt suscipit ullam voluptatum!</p>
+                </div>
+
+            </section>
+            <!-- this section is 2 columns one text one image -->
+            <section>
+                <div>
+                    <h3>Column One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam aspernatur, enim est eveniet fugit laborum magni mollitia nobis possimus rerum temporibus, vitae voluptates voluptatibus?</p>
+                </div>
+                <div>
+                    <img src="./img/image-1.jpg" alt="image one">
+                </div>
+            </section>
+            <!-- 3 columns all images -->
+            <section>
+                <div>
+                    <img src="./img/image-2.jpg" alt="image two">
+                </div>
+                <div>
+                    <img src="./img/image-3.jpg" alt="image three">
+                </div>
+                <div>
+                    <img src="./img/image-1.jpg" alt="image one">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h6>Footer Title</h6>
+        </footer>
+    </body>
+</html>
