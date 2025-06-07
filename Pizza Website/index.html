@@ -1,0 +1,373 @@
+<!-- in the doctype element, I am declaring the type of HTML (HTML 5) that will be used -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Here I've Included the required Metadata, the custom fonts, and the stylesheet -->
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="description" content="Slice Me Up – Where Every Bite Hits Different">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Slice Me Up | Georgian Pizzeria</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <!-- Area Visible To End User -->
+    <body>
+        <header>
+            <!-- Logo container-->
+            <div>
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="Slice Me Up Logo">
+                </a>
+            </div>
+            <!-- Menu Bar -->
+            <nav>
+                <menu>
+                    <li><a href="#ordersection">Order Online</a></li>
+                    <li><a href="#menu">Specials</a></li>
+                    <li><a href="#aboutparentcontainer">About Us</a></li>
+                    <li><a href="#">Tracker</a></li>
+                    <li><a href="#">Rewards</a></li>
+                    <li><a href="#">Cart</a></li>
+                </menu>
+            </nav>
+        </header>
+        <!-- Main Content of the website -->
+        <main>
+            <!-- Hero/Top Section -->
+            <section id="heroparentcontainer">
+                <img src="./img/slice_me_up_hero.jpg" alt="Slice Me Up Hero Image">
+            </section>
+            <!-- About us Section with the short brand story & what makes us special -->
+            <section id="aboutparentcontainer">
+                <div id="aboutchild1">
+                    <h2>Our Story</h2>
+                    <p>Slice Me Up started with a homemade crust, a borrowed oven, and a big dream right here in <span class="bold">Barrie, Ontario</span>. What began as weekend pizza nights with friends turned into a full-blown obsession—with perfect dough, bold flavors, and doing things differently from the big guys.</p>
+                    <p>While chain pizzerias focus on speed and shortcuts, we focused on quality: fresh dough made daily, locally sourced toppings, and sauces slow-simmered in small batches. We hand-toss every crust and layer each pie with care—no frozen cheese, no conveyor belts, and absolutely no compromises.</p>
+                    <p>We’re proud to be local, independent, and flavour-obsessed. Whether you’re dropping in after a Kempenfelt Bay walk or ordering in for movie night, we promise every slice is served with a side of passion.</p>
+                    <p id="onebite" class="bold">One Bite, and you’ll get it.</p>
+                </div>
+                <div id="aboutchild2">
+                    <img src="./img/aboutus.png" alt="About Slice Me Up Image">
+                </div>
+            </section>
+            <!-- Speciality Pizzas Menu Section -->
+            <section id="menu">
+                <h2>Our Specials</h2>
+                <div id="pizza-grid">
+                    <div>
+                        <img src="./img/heatwavepizza.png" alt="Heatwave Pizza">
+                        <h3>The Heatwave</h3>
+                        <h4>Spicy pepperoni, jalapeños, fire-roasted red peppers, and house-blended cheese</h4>
+                        <h4>Medium – $15.99 | Large – $19.99</h4>
+                    </div>
+                    <div>
+                        <img src="./img/barriebbq.png" alt="Barrie BBQ Pizza">
+                        <h3>Barrie BBQ</h3>
+                        <h4>Grilled chicken, red onion, smoked bacon, and BBQ drizzle</h4>
+                        <h4>Medium – $16.99 | Large – $21.49</h4>
+                    </div>
+                    <div>
+                        <img src="./img/gardenslice.png" alt="Garden Slice Pizza">
+                        <h3>Garden Slice</h3>
+                        <h4>Mushrooms, green peppers, olives, tomatoes, and mozzarella on garlic olive oil base</h4>
+                        <h4>Medium – $14.99 | Large – $18.99</h4>
+                    </div>
+                    <div>
+                        <img src="./img/thegreenmachine.png" alt="The Green Machine Pizza">
+                        <h3>The Green Machine</h3>
+                        <h4>Pesto base, spinach, artichokes, feta, and sun-dried tomatoes</h4>
+                        <h4>Medium – $15.49 | Large – $19.49</h4>
+                    </div>
+                    <div>
+                        <img src="./img/triplethreat.png" alt="Triple Threat Pizza">
+                        <h3>Triple Threat</h3>
+                        <h4>Mozzarella, cheddar, parmesan with a crispy cheese edge</h4>
+                        <h4>Medium – $13.99 | Large – $17.99</h4>
+                    </div>
+                    <div>
+                        <img src="./img/macattack.png" alt="Mac Attack Pizza">
+                        <h3>Mac Attack</h3>
+                        <h4>Creamy mac & cheese on pizza crust, topped with extra cheddar</h4>
+                        <h4>Medium – $15.99 | Large – $20.49</h4>
+                    </div>
+                </div>
+            </section>
+            <!-- Build Your Own Pizza Section -->
+            <section id="buildyourown-parent">
+                <div id="buildyourown-child1">
+                    <img src="./img/buildyourown.jpg" alt="Custom Made Pizza With Toppings">
+                </div>
+                <div id="buildyourown-child2">
+                    <h2>Build Your Own</h2>
+                    <h3>Start with a Size: Small-Large</h3>
+                    <h3>Choose a Base & Crust:</h3>
+                    <p><span class="bold">Base:</span> Tomato, Pesto, BBQ or Garlic Oil</p>
+                    <p><span class="bold">Crust:</span> Regular, Thin, Thick, Stuffed, or Gluten</p>
+                    <h3>Add Your Choice Of:</h3>
+                    <p><span class="bold">Protein:</span> Pepperoni, Grilled Chicken, Bacon Crumble, Italian Ham & Anchovies</p>
+                    <p><span class="bold">Veggies:</span> Mushrooms, Onions, Green Peppers, Tomatoes, Spinach, Olives, Pineapple, Artichokes & Jalapenos</p>
+                    <p><span class="bold">Cheeses:</span> Mozzarella, Feta, Cheddar, Parmesan & Vegan Cheese</p>
+                </div>
+            </section>
+            <!-- Pizza Ordering Form -->
+            <section id="ordersection">
+                <h2>Place An Order</h2>
+                <div>
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        <fieldset>
+                            <!-- this div container is for the customer information area -->
+                            <div id="container1">
+                                <div id="container1a">
+                                    <p>Customer Information</p>
+                                    <label for="name">Enter Your Name*</label>
+                                    <br>
+                                    <input type="text" name="name" id="name" required>
+                                    <br>
+                                    <label for="number">Enter Your Phone Number*</label>
+                                    <br>
+                                    <input type="tel" name="number" id="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(123)-456-7890" required>
+                                    <br>
+                                    <label for="email">Enter Your Email</label>
+                                    <br>
+                                    <input type="email" name="email" id="email">
+                                    <br>
+                                    <div id="radiogroup1">
+                                        <p>Select One:*</p>
+                                        <input type="radio" id="pickup" name="pickupordelivery" value="Pickup" checked>
+                                        <label for="pickup">Pickup</label>
+                                        <input type="radio" id="delivery" name="pickupordelivery" value="Delivery">
+                                        <label for="delivery">Delivery</label>
+                                    </div>
+                                </div>
+                                <div id="container1b">
+                                    <p>Delivery Information (fill out for delivery only)</p>
+                                    <label for="address">Street Address</label>
+                                    <br>
+                                    <input type="text" name="address" id="address" placeholder="House Number & Street Name">
+                                    <br>
+                                    <label for="city">City</label>
+                                    <br>
+                                    <input type="text" name="city" id="city">
+                                    <br>
+                                    <label for="postalcode">Postal Code</label>
+                                    <br>
+                                    <input type="text" name="postalcode" id="postalcode">
+                                    <p><label for="couponcode">Coupon Code</label></p>
+                                    <input type="text" name="couponcode" id="couponcode">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <p>Choose from our Specials</p>
+                            <!-- this div container is for the special pizza form container -->
+                            <div id="container2">
+                                <div id="container2a">
+                                    <label>The HeatWave</label>
+                                    <br>
+                                    <label for="heatwave-size">Size:</label>
+                                    <select name="heatwave-size" id="heatwave-size">
+                                        <option value="">Select Size</option>
+                                        <option value="medium">Medium - $15.99</option>
+                                        <option value="large">Large - $19.99</option>
+                                    </select>
+                                    <label for="heatwave-qty">Quantity:</label>
+                                    <input type="number" name="heatwave-qty" id="heatwave-qty" min="0" max="10" value="0">
+                                </div>
+                                <div id="container2b">
+                                    <label>Barrie BBQ</label>
+                                    <br>
+                                    <label for="barriebbq-size">Size:</label>
+                                    <select name="barriebbq-size" id="barriebbq-size">
+                                        <option value="">Select Size</option>
+                                        <option value="medium">Medium - $16.99</option>
+                                        <option value="large">Large - $21.49</option>
+                                    </select>
+                                    <label for="barriebbq-qty">Quantity:</label>
+                                    <input type="number" name="barriebbq-qty" id="barriebbq-qty" min="0" max="10" value="0">
+                                </div>
+                                <div id="container2c">
+                                    <label>Garden Slice</label>
+                                    <br>
+                                    <label for="gardenslice-size">Size:</label>
+                                    <select name="gardenslice-size" id="gardenslice-size">
+                                        <option value="">Select Size</option>
+                                        <option value="medium">Medium - $14.99</option>
+                                        <option value="large">Large - $18.99</option>
+                                    </select>
+                                    <label for="gardenslice-qty">Quantity:</label>
+                                    <input type="number" name="gardenslice-qty" id="gardenslice-qty" min="0" max="10" value="0">
+                                </div>
+                                <div id="container2d">
+                                    <label>The Green Machine</label>
+                                    <br>
+                                    <label for="greenmachine-size">Size:</label>
+                                    <select name="greenmachine-size" id="greenmachine-size">
+                                        <option value="">Select Size</option>
+                                        <option value="medium">Medium - $15.49</option>
+                                        <option value="large">Large - $19.49</option>
+                                    </select>
+                                    <label for="greenmachine-qty">Quantity:</label>
+                                    <input type="number" name="greenmachine-qty" id="greenmachine-qty" min="0" max="10" value="0">
+                                </div>
+                                <div id="container2e">
+                                    <label>Triple Threat</label>
+                                    <br>
+                                    <label for="triplethreat-size">Size:</label>
+                                    <select name="triplethreat-size" id="triplethreat-size">
+                                        <option value="">Select Size</option>
+                                        <option value="medium">Medium - $13.99</option>
+                                        <option value="large">Large - $17.99</option>
+                                    </select>
+                                    <label for="triplethreat-qty">Quantity:</label>
+                                    <input type="number" name="triplethreat-qty" id="triplethreat-qty" min="0" max="10" value="0">
+                                </div>
+                                <div id="container2f">
+                                    <label>Mac Attack</label>
+                                    <br>
+                                    <label for="macattack-size">Size:</label>
+                                    <select name="macattack-size" id="macattack-size">
+                                        <option value="">Select Size</option>
+                                        <option value="medium">Medium - $15.99</option>
+                                        <option value="large">Large - $20.49</option>
+                                    </select>
+                                    <label for="macattack-qty">Quantity:</label>
+                                    <input type="number" name="macattack-qty" id="macattack-qty" min="0" max="10" value="0">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <p>Build Your Own Pizza</p>
+                            <!-- this div container is for the build your own pizza form container -->
+                            <div id="container3">
+                                <div id="container3a">
+                                    <label for="pizzasize">Pizza Size*</label>
+                                    <select name="pizzasize" id="pizzasize" required>
+                                        <option value="">Select Size</option>
+                                        <option value="small">Small - $11.99</option>
+                                        <option value="medium">Medium - $12.99</option>
+                                        <option value="large">Large $15.49</option>
+                                    </select>
+                                </div>
+                                <div id="container3b">
+                                    <label for="crusttype">Crust Type*</label>
+                                    <select name="crusttype" id="crusttype" required>
+                                        <option value="">Select Crust Type</option>
+                                        <option value="regular">Regular - Included</option>
+                                        <option value="thin">Thin - Included</option>
+                                        <option value="thick">Thick +1.50$</option>
+                                        <option value="stuffed">Stuffed Crust +3.00$</option>
+                                        <option value="gluten">Gluten-Free +$2.00$</option>
+                                    </select>
+                                </div>
+                                <div id="container3c">
+                                    <label>Cheese Options</label>
+                                    <br>
+                                    <input type="checkbox" id="mozzarella" name="mozzarella" value="Mozzarella">
+                                    <label for="mozzarella">Mozzarella</label>
+                                    <input type="checkbox" id="feta" name="feta" value="Feta">
+                                    <label for="feta">Feta</label>
+                                    <input type="checkbox" id="cheddar" name="cheddar" value="Cheddar">
+                                    <label for="cheddar">Cheddar</label>
+                                    <input type="checkbox" id="parmesan" name="parmesan" value="Parmesan">
+                                    <label for="parmesan">Parmesan</label>
+                                    <input type="checkbox" id="vegancheese" name="vegancheese" value="Vegan Cheese">
+                                    <label for="vegancheese">Vegan Cheese +$1.50</label>
+                                    <input type="checkbox" id="nocheese" name="nocheese" value="No Cheese">
+                                    <label for="nocheese">No Cheese</label>
+                                </div>
+                                <div id="container3d">
+                                    <label>Proteins +$1.00 each</label>
+                                    <br>
+                                    <input type="checkbox" id="pepperoni" name="pepperoni" value="Pepperoni">
+                                    <label for="pepperoni">Pepperoni</label>
+                                    <input type="checkbox" id="grilledchicken" name="grilledchicken" value="Grilled Chicken">
+                                    <label for="grilledchicken">Grilled Chicken</label>
+                                    <input type="checkbox" id="bacon" name="bacon" value="Bacon">
+                                    <label for="bacon">Bacon Crumble</label>
+                                    <input type="checkbox" id="italianham" name="italianham" value="Italian Ham">
+                                    <label for="italianham">Italian Ham</label>
+                                    <input type="checkbox" id="anchovies" name="anchovies" value="Anchovies">
+                                    <label for="anchovies">Anchovies</label>
+                                </div>
+                                <div id="container3e">
+                                    <label>Veggies +$0.50 each</label>
+                                    <br>
+                                    <input type="checkbox" id="mushrooms" name="mushrooms" value="Mushrooms">
+                                    <label for="mushrooms">Mushrooms</label>
+                                    <input type="checkbox" id="onions" name="onions" value="Onions">
+                                    <label for="onions">Onions</label>
+                                    <input type="checkbox" id="greenpeppers" name="greenpeppers" value="Green Peppers">
+                                    <label for="greenpeppers">Green Peppers</label>
+                                    <input type="checkbox" id="tomatoes" name="tomatoes" value="Tomatoes">
+                                    <label for="tomatoes">Tomatoes</label>
+                                    <input type="checkbox" id="spinach" name="spinach" value="Spinach">
+                                    <label for="spinach">Spinach</label>
+                                    <input type="checkbox" id="olives" name="olives" value="Olives">
+                                    <label for="olives">Olives</label>
+                                    <input type="checkbox" id="pineapple" name="pineapple" value="Pineapple">
+                                    <label for="pineapple">Pineapple</label>
+                                    <input type="checkbox" id="artichokes" name="artichokes" value="Artichokes">
+                                    <label for="artichokes">Artichokes</label>
+                                    <input type="checkbox" id="jalapenos" name="jalapenos" value="Jalapenos">
+                                    <label for="jalapenos">Jalapenos</label>
+                                </div>
+                                <div id="container3f">
+                                    <label for="buildyourown-qty">Quantity:</label>
+                                    <input type="number" name="buildyourown-qty" id="buildyourown-qty" min="0" max="10" value="0">
+                                </div>
+                                <!-- Payment Information Area-->
+                                <div id="container3g">
+                                    <p>Payment Information*</p>
+                                    <input type="radio" id="cash" name="payment" value="Cash" checked>
+                                    <label for="cash">Cash</label>
+                                    <input type="radio" id="card" name="payment" value="Card">
+                                    <label for="card">Card</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <!-- this div container for the submit button -->
+                        <div id="submit">
+                            <input id="submitbutton" type="submit" value="Place Order">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- Footer Area of the Website -->
+        <footer>
+            <!-- Business Info & Contact Info-->
+            <div id="mainfooterarea">
+                <div id="footercontainer1">
+                    <h3>Contact Us</h3>
+                    <h4>Visit Us</h4>
+                    <p>Slice Me Up</p>
+                    <p>111 Topping Trail, Barrie, ON</p>
+                    <p>(Just minutes from downtown & Kempenfelt Bay)</p>
+                    <h4>Call Us</h4>
+                    <p>(705) 555-ZAZA (9292)</p>
+                    <p>We're open 7 days a week – noon ‘til late!</p>
+                    <h4>Email</h4>
+                    <p>hello@slicemeup.ca</p>
+                </div>
+                <div id="footercontainer2">
+                    <h3>Hours of Operation</h3>
+                    <p>Monday–Thursday: 12 PM – 10 PM</p>
+                    <p>Friday–Saturday: 12 PM – Midnight</p>
+                    <p>Sunday: 2 PM – 9 PM</p>
+                    <h3>Socials</h3>
+                    <div id="socialbar">
+                        <a href="#"><img src="./img/facebookicon.png" alt="facebook icon"></a>
+                        <a href="#"><img src="./img/instagramicon.png" alt="instagram icon"></a>
+                    </div>
+                </div>
+            <!-- Copyright Container of the footer -->
+            </div>
+            <p class="copyright">Copyright © 2025, Terms & privacy links, “Crafted with love and mozzarella.</p>
+            <p class="copyright">HTML & CSS By Adi Gershman</p>
+        </footer>
+    </body>
+</html>
+<!-- End of HTML, Hope you Enjoyed-->
