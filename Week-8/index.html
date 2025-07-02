@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This week we will be looking at how to make our application responsive">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Week 8 | Responsive Design</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <!-- add custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!-- add our CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- Before we get started, it would be important to note that we will be using both flex and grid to create our layout for this web page. We will also be creating a bit more of a complicated design that way we can't cheat the responsive aspect of our page. -->
+<body>
+<header class="header">
+    <div class="logo-container">
+        <a href="index.html" class="logo">
+            <img src="./img/logo.png" alt="header logo">
+        </a>
+    </div>
+    <!-- Desktop -->
+    <nav class="desktop-menu">
+        <menu class="menuItem">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+            <li><a href="#">Item 5</a></li>
+        </menu>
+    </nav>
+    <!-- Mobile -->
+    <nav class="menu--right mobile-menu" role="navigation">
+        <div class="menuToggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <menu class="menuItem">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </menu>
+        </div>
+    </nav>
+</header>
+<section class="home-masthead">
+    <div>
+        <h1>Mobile Friendly Interface</h1>
+    </div>
+</section>
+<main>
+    <section class="main-cta">
+        <div>
+            <h2>Service One</h2>
+            <i class="fa-solid fa-user"></i>
+            <a href="#">View</a>
+        </div>
+        <div>
+            <h2>Service Two</h2>
+            <i class="fa-solid fa-image"></i>
+            <a href="#">View</a>
+        </div>
+        <div>
+            <h2>Service Three</h2>
+            <i class="fa-solid fa-music"></i>
+            <a href="#">View</a>
+        </div>
+    </section>
+    <section class="home-service-row-1">
+        <!-- text container -->
+        <div>
+            <h3>Some Title</h3>
+            <p>Arabica Acerbic Affogato Aftertaste Aged Americano And Aroma medium, turkish grinder spoon sweet lungo at cultivar percolator sugar, beans saucer barista Brewed aged organic white. As Bar blue plunger mocha grounds Barista Americano at irish single, Au Black Aged saucer cup java lait chicory grinder, whipped organic trade ristretto percolator foam panna crema robusta.</p>
+        </div>
+        <!-- image container -->
+        <div>
+            <img src="./img/image-2.jpg" alt="image 2">
+        </div>
+    </section>
+    <section class="home-service-row-2">
+        <!-- image container -->
+        <div>
+            <img src="./img/image-3.jpg" alt="image 3">
+        </div>
+        <!-- text container -->
+        <div>
+            <h3>Some Title</h3>
+            <p>Arabica Acerbic Affogato Aftertaste Aged Americano And Aroma medium, turkish grinder spoon sweet lungo at cultivar percolator sugar, beans saucer barista Brewed aged organic white. As Bar blue plunger mocha grounds Barista Americano at irish single, Au Black Aged saucer cup java lait chicory grinder, whipped organic trade ristretto percolator foam panna crema robusta.</p>
+        </div>
+    </section>
+    <!-- gallery row -->
+    <section class="home-gallery-row">
+        <div>
+            <img src="./img/image-1.jpg" alt="image one">
+        </div>
+        <div>
+            <img src="./img/image-2.jpg" alt="image two">
+        </div>
+        <div>
+            <img src="./img/image-3.jpg" alt="image three">
+        </div>
+        <div>
+            <img src="./img/image-4.jpg" alt="image four">
+        </div>
+        <div>
+            <img src="./img/image-5.jpg" alt="image five">
+        </div>
+        <div>
+            <img src="./img/image-six.jpg" alt="image six">
+        </div>
+    </section>
+</main>
+<aside>
+    <!-- this will hold our fake products -->
+    <article>
+        <img src="./img/image-1.jpg" alt="image name">
+        <h5>Title</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam id maxime natus praesentium quo tempore.</p>
+        <a href="#">Read More</a>
+    </article>
+    <article>
+        <img src="./img/image-2.jpg" alt="image name">
+        <h5>Title</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam id maxime natus praesentium quo tempore.</p>
+        <a href="#">Read More</a>
+    </article>
+</aside>
+<footer>
+    <div>
+        <a href="index.html">
+            <img src="./img/logo.png" alt="footer logo">
+        </a>
+    </div>
+    <div>
+        <form method="post" action="#">
+            <p><input type="text" name="fullName" placeholder="Your Name"></p>
+            <p><input type="email" name="email" placeholder="Your Email"></p>
+            <textarea placeholder="Your Comment"></textarea>
+            <p><input type="submit" value="Send"></p>
+        </form>
+    </div>
+    <div>
+        <h6>Contact Information</h6>
+        <ul>
+            <li><i class="fa-solid fa-house"></i> 123 Some Street</li>
+            <li><a href="tel:+17051234567"><i class="fa-solid fa-square-phone"></i> 705.123.4567</a></li>
+            <li><a href="mailto:someemail@email.ca"><i class="fa-regular fa-envelope"></i> someemail@email.ca</a></li>
+        </ul>
+        <ul class="socials">
+            <!-- add social icons -->
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
